@@ -1,6 +1,6 @@
 'use strict';
 
-var test = require('tape');
+var test = require('./tape.js');
 var bcCrypto = require('browserify-cipher/browser');
 var bcCyphers = bcCrypto.getCiphers();
 var randomBytes = require('pseudorandombytes');
