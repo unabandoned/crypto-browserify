@@ -1,8 +1,8 @@
 'use strict';
 
-var test = require('tape');
+var test = require('./tape.js');
 var crypto = require('../');
-var Buffer = require('safe-buffer').Buffer;
+var Buffer = require('buffer').Buffer;
 
 test('get error message', function (t) {
 	try {

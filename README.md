@@ -1,4 +1,4 @@
-# crypto-browserify <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
+# @unabandoned/crypto-browserify <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
 A port of node's `crypto` module to the browser.
 
@@ -50,7 +50,7 @@ Crypto is _extra serious_ so please do not hesitate to review the code, and post
 
 MIT
 
-[package-url]: https://npmjs.org/package/crypto-browserify
+[package-url]: https://npmjs.org/package/@unabandoned/crypto-browserify
 [npm-version-svg]: https://versionbadg.es/browserify/crypto-browserify.svg
 [deps-svg]: https://david-dm.org/browserify/crypto-browserify.svg
 [deps-url]: https://david-dm.org/browserify/crypto-browserify

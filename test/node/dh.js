@@ -1,6 +1,6 @@
 'use strict';
 
-var test = require('tape');
+var test = require('../tape.js');
 var cryptoB = require('../../');
 var crypto = require('crypto');
 var satisfies = require('semver').satisfies;

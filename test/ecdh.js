@@ -6,7 +6,7 @@ var mods = [
 	'prime256v1',
 	'prime192v1'
 ];
-var test = require('tape');
+var test = require('./tape.js');
 var createECDH1 = require('../').createECDH;
 var createECDH2 = require('create-ecdh/browser');
 

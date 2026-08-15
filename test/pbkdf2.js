@@ -1,6 +1,6 @@
 'use strict';
 
-var tape = require('tape');
+var tape = require('./tape.js');
 var crypto = require('pbkdf2/browser');
 
 var vectors = require('hash-test-vectors/pbkdf2');

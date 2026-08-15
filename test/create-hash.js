@@ -1,6 +1,6 @@
 'use strict';
 
-var test = require('tape');
+var test = require('./tape.js');
 var satisfies = require('semver').satisfies;
 
 var algorithms = ['sha1', 'sha224', 'sha256', 'sha384', 'sha512', 'md5', 'rmd160'];

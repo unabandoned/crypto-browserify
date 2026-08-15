@@ -1,0 +1,27 @@
+schema: 1
+
+package: "@unabandoned/crypto-browserify"
+
+upstream:
+  repo: browserify/crypto-browserify
+  reason: "the aggregator package is unmaintained (last release 2024-10) while carrying outdated dependency pins over a large, security-sensitive crypto tree"
+
+summary: >-
+  A browser implementation of Node's `crypto` module — it wires together the
+  standalone hash, HMAC, cipher, sign, DH, ECDH, PBKDF2 and RNG packages behind
+  the same API, so bundled code that calls `require('crypto')` keeps working.
+
+why-forked: >-
+  A direct dependency of @unabandoned/browserify and the umbrella over the whole
+  browser-crypto tree. The aggregator itself went unmaintained (unlike several of
+  its leaves, which are still shipping); forked so we own it and keep its
+  dependency tree current with Renovate rather than letting an abandoned
+  metapackage pin the crypto stack in the browserify graph.
+
+status: active
+
+used-by:
+  - consumer: "@unabandoned/browserify"
+    purpose: "Provides the browser polyfill for Node's crypto module in bundles."
+
+tags: [browserify, crypto, polyfill, security]

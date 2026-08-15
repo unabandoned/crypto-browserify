@@ -1,6 +1,6 @@
 'use strict';
 
-var test = require('tape');
+var test = require('./tape.js');
 var nodeCrypto = require('../');
 var ourCrypto = require('browserify-sign/browser');
 

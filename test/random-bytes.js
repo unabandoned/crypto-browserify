@@ -1,9 +1,9 @@
 'use strict';
 
-var test = require('tape');
+var test = require('./tape.js');
 var crypto = require('../');
 var randomBytes = require('randombytes');
-var entries = require('object.entries');
+var entries = Object.entries;
 
 var randomBytesFunctions = {
 	randomBytes: randomBytes,
