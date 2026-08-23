@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.13.1](https://github.com/unabandoned/crypto-browserify/compare/crypto-browserify-v3.13.0...crypto-browserify-v3.13.1) (2026-08-23)
+
+
+### Dependencies & maintenance
+
+* **deps:** update commitlint monorepo to v21.2.2 ([#9](https://github.com/unabandoned/crypto-browserify/issues/9)) ([4f49dbd](https://github.com/unabandoned/crypto-browserify/commit/4f49dbdbffe872dbdc431f62b795d770486c2d37))
+* **deps:** update dependency semver to v7 ([#7](https://github.com/unabandoned/crypto-browserify/issues/7)) ([969f381](https://github.com/unabandoned/crypto-browserify/commit/969f3814467605901813382aaea7d97896a83f5d))
+* **deps:** update unabandoned/.github digest to 8209b37 ([#11](https://github.com/unabandoned/crypto-browserify/issues/11)) ([12da5ad](https://github.com/unabandoned/crypto-browserify/commit/12da5ad35f271edc444b80281bc531ad3b03a3ab))
+* **deps:** update unabandoned/.github digest to a6949e5 ([#10](https://github.com/unabandoned/crypto-browserify/issues/10)) ([ff4740a](https://github.com/unabandoned/crypto-browserify/commit/ff4740ab241b64a6cc8a89dd1e780569971eae4c))
+
 ## [3.13.0](https://github.com/unabandoned/crypto-browserify/compare/crypto-browserify-v3.12.1...crypto-browserify-v3.13.0) (2026-08-15)
 
 
