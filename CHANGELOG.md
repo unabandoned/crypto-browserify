@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.13.2](https://github.com/unabandoned/crypto-browserify/compare/crypto-browserify-v3.13.1...crypto-browserify-v3.13.2) (2026-08-28)
+
+
+### Dependencies & maintenance
+
+* **deps:** update unabandoned/.github digest to b7d15f4 ([#12](https://github.com/unabandoned/crypto-browserify/issues/12)) ([e7f2b9b](https://github.com/unabandoned/crypto-browserify/commit/e7f2b9bf28dac0582a5f76f8b68b9378f667d681))
+
 ## [3.13.1](https://github.com/unabandoned/crypto-browserify/compare/crypto-browserify-v3.13.0...crypto-browserify-v3.13.1) (2026-08-23)
 
 
