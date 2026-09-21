@@ -3,7 +3,7 @@
 var test = require('./tape.js');
 var bcCrypto = require('browserify-cipher/browser');
 var bcCyphers = bcCrypto.getCiphers();
-var randomBytes = require('pseudorandombytes');
+var randomBytes = require('../random').randomBytes;
 
 for (var i = 0; i < 4; i += 1) {
 	bcCrypto.listCiphers().forEach(function (cipher) {
