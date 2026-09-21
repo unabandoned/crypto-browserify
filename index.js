@@ -3,11 +3,13 @@
 // eslint-disable-next-line no-multi-assign
 exports.randomBytes = exports.rng = exports.pseudoRandomBytes = exports.prng = require('randombytes');
 
-// eslint-disable-next-line no-multi-assign
-exports.createHash = exports.Hash = require('create-hash');
+var digests = require('./hash');
 
 // eslint-disable-next-line no-multi-assign
-exports.createHmac = exports.Hmac = require('create-hmac');
+exports.createHash = exports.Hash = digests.createHash;
+
+// eslint-disable-next-line no-multi-assign
+exports.createHmac = exports.Hmac = digests.createHmac;
 
 var algos = require('browserify-sign/algos');
 var algoKeys = Object.keys(algos);
