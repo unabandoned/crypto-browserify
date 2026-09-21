@@ -18,14 +18,14 @@
   },
   "dependencies": {
     "browserify-cipher": "^1.0.1",
-    "browserify-sign": "^4.2.3",
+    "browserify-sign": "npm:@unabandoned/browserify-sign@^4.3.0",
     "create-ecdh": "^4.0.4",
     "create-hash": "^1.2.0",
     "create-hmac": "^1.1.7",
     "diffie-hellman": "^5.0.3",
     "hash-base": "~3.1.0",
     "inherits": "^2.0.4",
-    "pbkdf2": "^3.1.2",
+    "pbkdf2": "npm:@unabandoned/pbkdf2@^3.2.1",
     "public-encrypt": "^4.0.3",
     "randombytes": "^2.1.0",
     "randomfill": "^1.0.4"
