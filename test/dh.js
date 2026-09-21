@@ -1,7 +1,7 @@
 'use strict';
 
 var test = require('./tape.js');
-var crypto = require('diffie-hellman/browser');
+var crypto = require('../vendor/dh');
 
 test('diffie-hellman mod groups', function (t) {
 	[

@@ -8,7 +8,7 @@ var mods = [
 ];
 var test = require('./tape.js');
 var createECDH1 = require('../').createECDH;
-var createECDH2 = require('create-ecdh/browser');
+var createECDH2 = require('../ecdh');
 
 mods.forEach(function (mod) {
 	test('createECDH: ' + mod + ' uncompressed', function (t) {

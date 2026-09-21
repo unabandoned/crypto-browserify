@@ -33,7 +33,7 @@ var p = require('pbkdf2');
 exports.pbkdf2 = p.pbkdf2;
 exports.pbkdf2Sync = p.pbkdf2Sync;
 
-var aes = require('browserify-cipher');
+var aes = require('./vendor/cipher');
 
 exports.Cipher = aes.Cipher;
 exports.createCipher = aes.createCipher;
@@ -46,7 +46,7 @@ exports.createDecipheriv = aes.createDecipheriv;
 exports.getCiphers = aes.getCiphers;
 exports.listCiphers = aes.listCiphers;
 
-var dh = require('diffie-hellman');
+var dh = require('./vendor/dh');
 
 exports.DiffieHellmanGroup = dh.DiffieHellmanGroup;
 exports.createDiffieHellmanGroup = dh.createDiffieHellmanGroup;
@@ -61,9 +61,9 @@ exports.Sign = sign.Sign;
 exports.createVerify = sign.createVerify;
 exports.Verify = sign.Verify;
 
-exports.createECDH = require('create-ecdh');
+exports.createECDH = require('./ecdh');
 
-var publicEncrypt = require('public-encrypt');
+var publicEncrypt = require('./vendor/pe');
 
 exports.publicEncrypt = publicEncrypt.publicEncrypt;
 exports.privateEncrypt = publicEncrypt.privateEncrypt;
