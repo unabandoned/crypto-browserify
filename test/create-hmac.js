@@ -51,4 +51,4 @@ function testLib(name, createHmac) {
 }
 
 testLib('createHmac in crypto-browserify', require('../').createHmac);
-testLib('create-hmac/browser', require('create-hmac/browser'));
+testLib('createHmac in ./hash.js', require('../hash').createHmac);

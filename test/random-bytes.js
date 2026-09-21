@@ -2,7 +2,7 @@
 
 var test = require('./tape.js');
 var crypto = require('../');
-var randomBytes = require('randombytes');
+var randomBytes = require('../random').randomBytes;
 var entries = Object.entries;
 
 var randomBytesFunctions = {

@@ -1,7 +1,9 @@
 'use strict';
 
+var random = require('./random');
+
 // eslint-disable-next-line no-multi-assign
-exports.randomBytes = exports.rng = exports.pseudoRandomBytes = exports.prng = require('randombytes');
+exports.randomBytes = exports.rng = exports.pseudoRandomBytes = exports.prng = random.randomBytes;
 
 var digests = require('./hash');
 
@@ -77,7 +79,7 @@ exports.privateDecrypt = publicEncrypt.privateDecrypt;
 //   };
 // });
 
-var rf = require('randomfill');
+var rf = require('./random');
 
 exports.randomFill = rf.randomFill;
 exports.randomFillSync = rf.randomFillSync;

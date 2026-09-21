@@ -48,4 +48,4 @@ function testLib(name, createHash) {
 }
 
 testLib('createHash in crypto-browserify', require('../').createHash);
-testLib('create-hash/browser', require('create-hash/browser'));
+testLib('createHash in ./hash.js', require('../hash').createHash);
