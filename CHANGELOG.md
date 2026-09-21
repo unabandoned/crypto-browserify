@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.15.0](https://github.com/unabandoned/crypto-browserify/compare/crypto-browserify-v3.14.0...crypto-browserify-v3.15.0) (2026-09-21)
+
+
+### Features
+
+* serve createHash and createHmac from @unabandoned/hash.js ([#18](https://github.com/unabandoned/crypto-browserify/issues/18)) ([e31daca](https://github.com/unabandoned/crypto-browserify/commit/e31daca2e0ad503e62374643d4270387383c0674))
+* vendor randombytes and randomfill over Web Crypto ([#20](https://github.com/unabandoned/crypto-browserify/issues/20)) ([c015d9a](https://github.com/unabandoned/crypto-browserify/commit/c015d9aea5a0c49c382bac0a188f8fb872be493b))
+
 ## [3.14.0](https://github.com/unabandoned/crypto-browserify/compare/crypto-browserify-v3.13.2...crypto-browserify-v3.14.0) (2026-09-21)
 
 
