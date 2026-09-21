@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.14.0](https://github.com/unabandoned/crypto-browserify/compare/crypto-browserify-v3.13.2...crypto-browserify-v3.14.0) (2026-09-21)
+
+
+### Features
+
+* take browserify-sign and pbkdf2 from the org's forks ([#17](https://github.com/unabandoned/crypto-browserify/issues/17)) ([bd0d812](https://github.com/unabandoned/crypto-browserify/commit/bd0d8127351bfb54db50862cd90e17be8f3699f3))
+
+
+### Dependencies & maintenance
+
+* **deps:** update unabandoned/.github digest to 0c6624e ([#15](https://github.com/unabandoned/crypto-browserify/issues/15)) ([5b20379](https://github.com/unabandoned/crypto-browserify/commit/5b203793875f45a5784cf184d9b2ff1f76b95be5))
+* **deps:** update unabandoned/.github digest to 5389d69 ([#14](https://github.com/unabandoned/crypto-browserify/issues/14)) ([a2653ce](https://github.com/unabandoned/crypto-browserify/commit/a2653cec2f11b8607a787146cab1d5c936c76759))
+
 ## [3.13.2](https://github.com/unabandoned/crypto-browserify/compare/crypto-browserify-v3.13.1...crypto-browserify-v3.13.2) (2026-08-28)
 
 
