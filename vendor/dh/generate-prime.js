@@ -83,6 +83,12 @@ function findPrime(bits, gen) {
     while (num.bitLength() > bits) {
       num.ishrn(1);
     }
+    // Force the requested size. Upstream left the top bit to chance, so a
+    // `createDiffieHellman(512)` returned a 508- to 512-bit prime depending on
+    // the random draw, and node:crypto rejects a group smaller than asked for
+    // with ERR_CRYPTO_OPERATION_FAILED — five of six upstream primes failed
+    // that way in testing. OpenSSL sets this bit for the same reason.
+    num.setn(bits - 1, 1);
     if (num.isEven()) {
       num.iadd(ONE);
     }

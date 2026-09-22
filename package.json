@@ -24,7 +24,7 @@
     "browserify-sign": "npm:@unabandoned/browserify-sign@^4.3.0",
     "des.js": "^1.1.0",
     "inherits": "^2.0.4",
-    "parse-asn1": "^5.1.9",
+    "parse-asn1": "npm:@unabandoned/parse-asn1@^5.2.0",
     "pbkdf2": "npm:@unabandoned/pbkdf2@^3.2.1",
     "safe-buffer": "^5.2.1"
   },
