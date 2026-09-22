@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.16.0](https://github.com/unabandoned/crypto-browserify/compare/crypto-browserify-v3.15.0...crypto-browserify-v3.16.0) (2026-09-22)
+
+
+### Features
+
+* vendor the remaining abandoned shims ([#21](https://github.com/unabandoned/crypto-browserify/issues/21)) ([4588e9d](https://github.com/unabandoned/crypto-browserify/commit/4588e9d582cd363bfc9ef6daca39bbe778c84593))
+
 ## [3.15.0](https://github.com/unabandoned/crypto-browserify/compare/crypto-browserify-v3.14.0...crypto-browserify-v3.15.0) (2026-09-21)
 
 
