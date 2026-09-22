@@ -22,7 +22,7 @@
     "@unabandoned/hash.js": "^1.4.0",
     "bn.js": "^5.2.5",
     "browserify-sign": "npm:@unabandoned/browserify-sign@^4.3.0",
-    "des.js": "^1.1.0",
+    "des.js": "npm:@unabandoned/des.js@^1.2.0",
     "inherits": "^2.0.4",
     "parse-asn1": "npm:@unabandoned/parse-asn1@^5.2.0",
     "pbkdf2": "npm:@unabandoned/pbkdf2@^3.2.1",

@@ -1,8 +1,10 @@
 'use strict'
 
 // Vendored from browserify-des@1.0.2 (MIT, crypto-browserify), unmaintained
-// since 2018. Wraps des.js (maintained, 2023) in the same Transform shape the
-// AES ciphers use.
+// since 2018. Wraps des.js in the same Transform shape the AES ciphers use.
+//
+// des.js is itself abandoned (last release May 2023) and is aliased to our fork
+// @unabandoned/des.js in package.json, so the require below is unchanged.
 
 var CipherBase = require('cipher-base')
 var des = require('des.js')
