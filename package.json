@@ -17,14 +17,16 @@
     "node": ">=22.12"
   },
   "dependencies": {
+    "@unabandoned/browserify-aes": "^1.4.0",
+    "@unabandoned/elliptic": "^7.0.0",
     "@unabandoned/hash.js": "^1.4.0",
-    "browserify-cipher": "^1.0.1",
+    "bn.js": "^5.2.5",
     "browserify-sign": "npm:@unabandoned/browserify-sign@^4.3.0",
-    "create-ecdh": "^4.0.4",
-    "diffie-hellman": "^5.0.3",
+    "des.js": "^1.1.0",
     "inherits": "^2.0.4",
+    "parse-asn1": "npm:@unabandoned/parse-asn1@^5.2.0",
     "pbkdf2": "npm:@unabandoned/pbkdf2@^3.2.1",
-    "public-encrypt": "^4.0.3"
+    "safe-buffer": "^5.2.1"
   },
   "devDependencies": {
     "@commitlint/cli": "21.2.2",

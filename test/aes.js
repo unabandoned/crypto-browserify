@@ -1,7 +1,7 @@
 'use strict';
 
 var test = require('./tape.js');
-var bcCrypto = require('browserify-cipher/browser');
+var bcCrypto = require('../vendor/cipher');
 var bcCyphers = bcCrypto.getCiphers();
 var randomBytes = require('../random').randomBytes;
 
