@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.17.1](https://github.com/unabandoned/crypto-browserify/compare/crypto-browserify-v3.17.0...crypto-browserify-v3.17.1) (2026-09-23)
+
+
+### Bug Fixes
+
+* stop dev-only commits from cutting releases ([#26](https://github.com/unabandoned/crypto-browserify/issues/26)) ([47695c3](https://github.com/unabandoned/crypto-browserify/commit/47695c3df54cf2fdcc5320a86e1b72e7fa026261))
+
 ## [3.17.0](https://github.com/unabandoned/crypto-browserify/compare/crypto-browserify-v3.16.0...crypto-browserify-v3.17.0) (2026-09-23)
 
 
