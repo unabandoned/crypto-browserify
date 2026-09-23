@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.17.0](https://github.com/unabandoned/crypto-browserify/compare/crypto-browserify-v3.16.0...crypto-browserify-v3.17.0) (2026-09-23)
+
+
+### Features
+
+* point the DES ciphers at @unabandoned/des.js ([#23](https://github.com/unabandoned/crypto-browserify/issues/23)) ([04b1dd0](https://github.com/unabandoned/crypto-browserify/commit/04b1dd0719a11eaddcc1fdc0a96e9fe170f0b1d1))
+
+
+### Dependencies & maintenance
+
+* **deps:** update commitlint monorepo to v21.2.3 ([#24](https://github.com/unabandoned/crypto-browserify/issues/24)) ([f76649d](https://github.com/unabandoned/crypto-browserify/commit/f76649d5df889fff1b8bf7003dbbb80586845dd8))
+
 ## [3.16.0](https://github.com/unabandoned/crypto-browserify/compare/crypto-browserify-v3.15.0...crypto-browserify-v3.16.0) (2026-09-22)
 
 
