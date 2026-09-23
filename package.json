@@ -1,6 +1,14 @@
 {
   "name": "@unabandoned/crypto-browserify",
   "version": "3.17.1",
+  "files": [
+    "CHANGELOG.md",
+    "ecdh.js",
+    "hash.js",
+    "index.js",
+    "random.js",
+    "vendor"
+  ],
   "description": "implementation of crypto for the browser",
   "author": "Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com)",
   "license": "MIT",
