@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.17.2](https://github.com/unabandoned/crypto-browserify/compare/crypto-browserify-v3.17.1...crypto-browserify-v3.17.2) (2026-10-04)
+
+
+### Bug Fixes
+
+* vendor cipher-base, which this package used without declaring ([#33](https://github.com/unabandoned/crypto-browserify/issues/33)) ([a69c203](https://github.com/unabandoned/crypto-browserify/commit/a69c203b3546e598942b2084477fc128216e4397))
+
 ## [3.17.1](https://github.com/unabandoned/crypto-browserify/compare/crypto-browserify-v3.17.0...crypto-browserify-v3.17.1) (2026-09-23)
 
 
