@@ -6,7 +6,7 @@
 // des.js is itself abandoned (last release May 2023) and is aliased to our fork
 // @unabandoned/des.js in package.json, so the require below is unchanged.
 
-var CipherBase = require('cipher-base')
+var CipherBase = require('./cipher-base')
 var des = require('des.js')
 var inherits = require('inherits')
 var Buffer = require('safe-buffer').Buffer
