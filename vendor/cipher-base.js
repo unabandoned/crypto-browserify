@@ -9,13 +9,17 @@
 // what this code actually uses, and keeps the 27-package es-intrinsics tree that
 // cipher-base's own to-buffer dependency pulls out of the picture.
 //
-// Unchanged from upstream apart from the require of to-buffer, which now points
-// at the copy next to it.
+// Changed from upstream only in its requires: to-buffer points at the copy next
+// to it, `inherits` at the in-tree helper, and Buffer comes from the `buffer`
+// module rather than `safe-buffer`. `string_decoder` is still required by its
+// bare name — Node resolves its built-in, and the package declares
+// @unabandoned/string_decoder under that name so bundlers find it without a
+// consumer-side fallback.
 
-var Buffer = require('safe-buffer').Buffer;
+var Buffer = require('buffer').Buffer;
 var Transform = require('stream').Transform;
 var StringDecoder = require('string_decoder').StringDecoder;
-var inherits = require('inherits');
+var inherits = require('./inherits');
 var toBuffer = require('./to-buffer');
 
 function CipherBase(hashMode) {

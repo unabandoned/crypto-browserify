@@ -10,7 +10,7 @@ var BN = require('bn.js')
 var crt = require('./rsa')
 var createHash = require('../../hash').createHash
 var withPublic = require('./with-public')
-var Buffer = require('safe-buffer').Buffer
+var Buffer = require('buffer').Buffer
 
 module.exports = function privateDecrypt (privateKey, enc, reverse) {
   var padding

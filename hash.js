@@ -16,8 +16,8 @@
 // browser shim under a bundler, exactly as cipher-base relied on.
 
 var Transform = require('stream').Transform;
-var Buffer = require('safe-buffer').Buffer;
-var inherits = require('inherits');
+var Buffer = require('buffer').Buffer;
+var inherits = require('./vendor/inherits');
 var hash = require('@unabandoned/hash.js');
 
 var algorithms = {

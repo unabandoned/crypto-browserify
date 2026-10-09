@@ -4,7 +4,7 @@
 // since 2018.
 
 var BN = require('bn.js')
-var Buffer = require('safe-buffer').Buffer
+var Buffer = require('buffer').Buffer
 
 function withPublic (paddedMsg, key) {
   return Buffer.from(paddedMsg

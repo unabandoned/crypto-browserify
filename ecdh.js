@@ -15,7 +15,7 @@
 // are implemented on. It lives here rather than in its own fork because this
 // is its only consumer.
 
-var elliptic = require('@unabandoned/elliptic');
+var elliptic = require('elliptic');
 var BN = require('bn.js');
 
 
