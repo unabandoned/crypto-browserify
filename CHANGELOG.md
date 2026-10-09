@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.17.3](https://github.com/unabandoned/crypto-browserify/compare/crypto-browserify-v3.17.2...crypto-browserify-v3.17.3) (2026-10-09)
+
+
+### Dependencies & maintenance
+
+* drop inherits and safe-buffer, take elliptic by its aliased name ([#35](https://github.com/unabandoned/crypto-browserify/issues/35)) ([19cf9dc](https://github.com/unabandoned/crypto-browserify/commit/19cf9dce7905aa2bb8fce788145489f510935498))
+
 ## [3.17.2](https://github.com/unabandoned/crypto-browserify/compare/crypto-browserify-v3.17.1...crypto-browserify-v3.17.2) (2026-10-04)
 
 
