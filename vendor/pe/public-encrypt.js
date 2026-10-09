@@ -11,7 +11,7 @@ var xor = require('./xor')
 var BN = require('bn.js')
 var withPublic = require('./with-public')
 var crt = require('./rsa')
-var Buffer = require('safe-buffer').Buffer
+var Buffer = require('buffer').Buffer
 
 module.exports = function publicEncrypt (publicKey, msg, reverse) {
   var padding

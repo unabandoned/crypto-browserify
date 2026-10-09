@@ -4,7 +4,7 @@
 // since 2018.
 
 var createHash = require('../../hash').createHash
-var Buffer = require('safe-buffer').Buffer
+var Buffer = require('buffer').Buffer
 
 module.exports = function (seed, len) {
   var t = Buffer.alloc(0)

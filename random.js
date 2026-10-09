@@ -13,10 +13,10 @@
 // depend on these exact TypeError and RangeError messages, and Node's own
 // crypto module produces the same ones.
 
-var safeBuffer = require('safe-buffer');
+var bufferModule = require('buffer');
 
-var Buffer = safeBuffer.Buffer;
-var kBufferMaxLength = safeBuffer.kMaxLength;
+var Buffer = bufferModule.Buffer;
+var kBufferMaxLength = bufferModule.kMaxLength;
 var kMaxUint32 = Math.pow(2, 32) - 1;
 
 // getRandomValues rejects requests above this; Node's randomBytes does not, so

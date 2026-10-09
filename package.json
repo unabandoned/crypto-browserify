@@ -25,16 +25,15 @@
     "node": ">=22.12"
   },
   "dependencies": {
-    "@unabandoned/browserify-aes": "^1.4.0",
-    "@unabandoned/elliptic": "^7.0.0",
+    "@unabandoned/browserify-aes": "^1.4.5",
     "@unabandoned/hash.js": "^1.4.0",
     "bn.js": "^5.2.5",
-    "browserify-sign": "npm:@unabandoned/browserify-sign@^4.3.0",
-    "des.js": "npm:@unabandoned/des.js@^1.2.0",
-    "inherits": "^2.0.4",
-    "parse-asn1": "npm:@unabandoned/parse-asn1@^5.2.0",
-    "pbkdf2": "npm:@unabandoned/pbkdf2@^3.2.1",
-    "safe-buffer": "^5.2.1"
+    "browserify-sign": "npm:@unabandoned/browserify-sign@^4.5.5",
+    "des.js": "npm:@unabandoned/des.js@^1.2.3",
+    "elliptic": "npm:@unabandoned/elliptic@^7.0.0",
+    "parse-asn1": "npm:@unabandoned/parse-asn1@^5.2.3",
+    "pbkdf2": "npm:@unabandoned/pbkdf2@^3.2.5",
+    "string_decoder": "npm:@unabandoned/string_decoder@^1.4.4"
   },
   "devDependencies": {
     "@commitlint/cli": "21.2.3",

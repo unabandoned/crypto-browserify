@@ -3,7 +3,7 @@
 // Vendored from to-buffer@1.2.2 (MIT, Calvin Metcalf and contributors), reached
 // only through cipher-base. Verbatim but for the two polyfills noted below.
 
-var Buffer = require('safe-buffer').Buffer;
+var Buffer = require('buffer').Buffer;
 
 // Upstream reached for `isarray` and, where ArrayBuffer.isView is missing, for
 // `typed-array-buffer`. Both are native on every engine that has TypedArray at
